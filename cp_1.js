@@ -8,6 +8,7 @@ const textCounter = document.getElementById("character-count");
 const feedbackDisplay = document.getElementById("feedback-display");
 
 // Character Count
+
 commentsInput.addEventListener("input", () => {
     textCounter.textContent = "Characters: " + commentsInput.value.length;
 });
@@ -30,4 +31,3 @@ feedbackForm.addEventListener("submit", (event) => {
 
     feedbackDisplay.appendChild(entry);
 })
-
