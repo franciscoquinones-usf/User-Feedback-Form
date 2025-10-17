@@ -1,4 +1,4 @@
-// Step 3
+// DOM
 
 const feedbackForm = document.getElementById("feedbackForm");
 const usernameInput = document.getElementById("username");
